@@ -11,6 +11,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e1e1e1;
+
+
 }
 
 code {
@@ -28,8 +30,6 @@ code {
   width: 100%;
   height: 100%;
   position: absolute;
-  font-family: 'Poppins';
-  
 }
 
 .overlay {
@@ -66,7 +66,17 @@ li a {
 }
 
 .header-text {
-  z-index: 2;
+  position: relative;
+   font-size: 70px; 
+   text-align: center;
+   z-index: 2;
+
+}
+
+.text {
+  font-size: 50px;
+  margin-top: 10px;
+  border-right: 2px solid #fff;
 }
 
 .list>li>a::before {
@@ -111,19 +121,66 @@ li a {
    background-size: cover;
    background-position: center center;
    background-attachment: fixed;
-   position: relative;
+   width: 100%;
+   height: 400px;
 }
 
 .main-1 .overlay-1 {
    position: absolute;
    background-color: #007FFF;
    width: 100%;
-   height: 350px;
+   height: 400px;
    opacity: 0.5;
     
 }
 
+.section-icons {
+  z-index: 2;
+  color: #fff;
+}
 
+ .side {
+  width: 370px;
+  height: 350px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.sections-1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.icon {
+  font-size: 70px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin-left: 45px;
+ 
+}
+
+.section-icons {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-items: space-evenly;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-70%);
+  
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+  margin: 10px;
+}
 
 
 
