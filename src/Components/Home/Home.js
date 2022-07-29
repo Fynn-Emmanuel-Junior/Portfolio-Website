@@ -31,25 +31,33 @@ export default function Home() {
             </div>
             <div className="section-icons">
               <div style={{display: 'flex',justifyContent: 'space-evenly', width: '100%'}}>
-                <div>
+                <div className="icon-container">
                   <FaCheck  className="icon" />
-                  <h3 className="heading">450</h3>
-                  <p>WORKS COMPLETED</p>
+                  <div className="icons">
+                    <h3 className="heading">450</h3>
+                    <p>WORKS COMPLETED</p>
+                  </div>
                 </div> 
-                <div>
+                <div className="icon-container">
                   <FaClipboardList  className="icon"/>
-                  <h3 className="heading">25</h3>
-                  <p>YEARS OF EXPERINECE</p>
+                  <div className="icons">
+                    <h3 className="heading">25</h3>
+                    <p>YEARS OF EXPERINECE</p>
+                  </div>
                 </div>
-                <div>
+                <div className="icon-container">
                   <FaUserFriends className="icon"/>
-                  <h3 className="heading">450</h3>
-                  <p>TOTAL CLIENTS</p>
+                  <div className="icons">
+                    <h3 className="heading">550</h3>
+                    <p>TOTAL CLIENTS</p>
+                  </div>
                 </div> 
-                <div>
+                <div className="icon-container">
                   <FaAward className="icon"/>
-                  <h3 className="heading">450</h3>
-                  <p>WORKS COMPLETED</p>
+                  <div className="icons">
+                    <h3 className="heading">48</h3>
+                    <p>AWARD WON</p>
+                  </div>
                 </div>
               </div>
             </div>
