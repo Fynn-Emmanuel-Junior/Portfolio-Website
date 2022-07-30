@@ -3,7 +3,9 @@ import Navbar from "./Navbar";
 import About  from "../About/About";
 import Services from "../Services/Services";
 import Portfolio from '../Portfolio/Portfolio';
+import Slider from '../Slider/Slider';
 import { FaCheck,FaClipboardList,FaUserFriends,FaAward } from "react-icons/fa";
+
 export default function Home() {
     return (
         <div style={{width:'100%',height:'700px', position: 'relative'}}>
@@ -64,6 +66,8 @@ export default function Home() {
           </div>
 
           <Portfolio />
+          <Slider />
+          
 
         </div>
     )

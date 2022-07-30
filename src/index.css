@@ -21,7 +21,7 @@ code {
 }
 
 .Header {
-  background-image: url('/assets/img/hero-bg.jpg');
+  background-image: url('./assets/img/hero-bg.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -116,7 +116,7 @@ li a {
 }
 
 .main-1 {
-   background-image: url('/assets/img/counters-bg.jpg');
+   background-image: url('./assets/img/counters-bg.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center center;
@@ -157,7 +157,7 @@ li a {
 
 .icon {
   font-size: 70px;
-  border: 5px solid #fff;
+  border: 5px solid #e1e1e1;
   border-radius: 50%;
   padding: 10px;
  
@@ -177,8 +177,9 @@ li a {
 
 .heading {
   text-align: center;
-  font-size: 40px;
+  font-size: 35px;
   margin: 10px;
+  font-weight: normal;
 }
 
 .icons {
